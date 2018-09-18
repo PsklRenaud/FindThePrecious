@@ -1,0 +1,4 @@
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link .btn .btn-primary {
+    color: #fff;
+     background-color: #8e8989; 
+}
