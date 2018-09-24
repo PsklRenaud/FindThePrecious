@@ -2,12 +2,13 @@
     color: #fff;
      background-color: #8e8989; 
 }
+/* saut de ligne*/
+.brStyle {
+	margin-top:20px;
+}
 
 /* Gandalff*/
-/*.imgGandalf{
-	width: 40px;
 
-}*/
 /* Texte*/
 .reward {
   background-color: rgba(255, 255, 255, 0.7);
@@ -29,12 +30,6 @@
   text-align: center; 
 }
 
-/*boite*/
-/*#contener {
-  display:flex;
-  justify-content: center;
-  position: relative;
-}*/
 
 .sousContener {
     display:flex;
@@ -67,3 +62,9 @@
     top: 220%;
     left: 40px;
 } 
+
+/*-- Paragraphe The Ring */
+/* Image ronde*/
+.img-circle {
+	border-radius:55px;
+	}
