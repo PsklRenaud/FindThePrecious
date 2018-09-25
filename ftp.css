@@ -68,3 +68,13 @@
 .img-circle {
 	border-radius:55px;
 	}
+
+/*-- Paragraphe The Ring */
+.sizeFooter{
+	max-height: 150px;
+}
+/* Lien html non soulgné*/
+.menu-a, .menu-a:visited, .menu-a:hover, .menu-a:focus, .menu-a:active  { 
+	color:#FFFFFF; 
+	text-decoration:none; 
+}
