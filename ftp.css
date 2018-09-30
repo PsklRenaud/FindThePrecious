@@ -1,13 +1,51 @@
+/*General*/
+
+/*Polices*/
+@font-face {
+	font-family: "Aniron";
+	src: url('police/anicb___.ttf');
+}
+@font-face {
+	font-family: "partyBusiness";
+	src: url('police/partybusiness.ttf');
+}
+
+/* police des titres*/
+
+h2,h1,h3,h4,h5,h6{
+    font-family: "Aniron";
+}
+/*Police du site*/
+p, a, li{
+    font-family: "partyBusiness";
+    font-size: 25px;
+}
+.withOutPolice {
+	font-family: serif;
+}	
+ /*<!-- Titre Principal-->*/
+
+
+
+/*NavBar*/
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link .btn .btn-primary {
     color: #fff;
      background-color: #8e8989; 
+}
+.logo{
+	padding-right : 100px;
 }
 /* saut de ligne*/
 .brStyle {
 	margin-top:20px;
 }
 
-/* Gandalff*/
+/* Pas de bleu dans les lien HTML*/
+.nav-link, .nav-link:visited, .nav-link:hover, .nav-link:focus, .nav-link:active  { 
+	color:#FFFFFF; 
+	text-decoration:none; 
+}
+
 
 /* Texte*/
 .reward {
