@@ -16,13 +16,25 @@ h2,h1,h3,h4,h5,h6{
     font-family: "Aniron";
 }
 /*Police du site*/
-p, a, li{
+p, a, li {
     font-family: "partyBusiness";
     font-size: 25px;
 }
 .withOutPolice {
 	font-family: serif;
 }	
+
+/* saut de ligne*/
+.brStyle {
+	margin-top:20px;
+}
+
+/* Pas de bleu dans les lien HTML*/
+.nav-link, .nav-link:visited, .nav-link:hover, .nav-link:focus, .nav-link:active  { 
+	color:#FFFFFF; 
+	text-decoration:none; 
+}
+
  /*<!-- Titre Principal-->*/
 
 
@@ -34,16 +46,6 @@ p, a, li{
 }
 .logo{
 	padding-right : 100px;
-}
-/* saut de ligne*/
-.brStyle {
-	margin-top:20px;
-}
-
-/* Pas de bleu dans les lien HTML*/
-.nav-link, .nav-link:visited, .nav-link:hover, .nav-link:focus, .nav-link:active  { 
-	color:#FFFFFF; 
-	text-decoration:none; 
 }
 
 
@@ -76,11 +78,33 @@ p, a, li{
     position: absolute;
     top: 6%;
 }
-
+/*Caroussel*/
+.BigPolice {
+	font-size: 1.8em;
+}
+.carousel-caption {
+	margin-bottom:12%;
+}
+.carousel-control-prev-icon{
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image:url("images/FlecheG.png");
+}
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  background-image:url("images/FlecheD.png");
+}
+/*Fellows wanted dead*/
 
 /*image*/
-
+.background-Image {
+	background-image:url("images/bg_light.png");
+}	
     /* Image non survolée*/
+
 .opacity {
   opacity: 0.4;
   height: 350px;
